@@ -100,7 +100,6 @@
 
 
 
-
 import { Link } from "react-router-dom";
 import { Linkedin, Heart } from "lucide-react";
 import logo from "@/assets/nepphnu-logo.jpeg";
@@ -170,10 +169,10 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-primary-foreground/70">
               <li>📞 +91 9133316688</li>
               <li>✉️ nepphnutechnologiespvtltd@gmail.com</li>
-              <li>
-                📍 Flat No. 201, Sai Bhargavi Residency,<br />
-                Srinivas Colony East, Ameerpet,<br />
-                Hyderabad – 500038
+              <li className="leading-relaxed">
+                📍 Plot No.71, Near RIC front gate circle,<br />
+                Sulthanpur, Mallapur Village, Balapur mandal,<br />
+                Hyderabad – 500005, Telangana.
               </li>
               <li>
                 <a
